@@ -30,7 +30,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="span3 examcontent">
+	<!--	<div class="span3 examcontent">
 			<div class="exambox">
 				<div class="examform">
 					<h5 class="title">一周学霸排行榜</h5>
@@ -55,8 +55,9 @@
 			</div>
 		</div>
 	</div>
+    -->
 </div>
-<div class="row-fluid">
+<!--<div class="row-fluid">
 	<div class="container-fluid examcontent">
 		<div class="exambox" id="datacontent">
 			<div class="examform">
@@ -80,6 +81,7 @@
 		</div>
 	</div>
 </div>
+-->
 <div class="row-fluid">
 	<div class="container-fluid examcontent">
 		<div class="exambox" id="datacontent">

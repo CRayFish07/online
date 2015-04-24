@@ -3,31 +3,23 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="title" content="文学院在线答题系统">
-<meta name="description" content="文学院在线答题系统">
-<meta name="keywords" content="文学院在线答题系统">
+<meta name="title" content="无纸化模拟考试系统">
+<meta name="description" content="无纸化模拟考试系统">
+<meta name="keywords" content="无纸化模拟考试系统">
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<title>文学院在线答题系统</title>
-<!–[if lt IE9]>
-<script src="app/core/styles/js/html5.js"></script>
-<![endif]–>
-<!-- Le styles -->
+<title>PHPEMS无纸化模拟考试系统</title>
 <link href="app/core/styles/css/bootstrap.css" rel="stylesheet">
-<link href="app/core/styles/css/layoutit.css" rel="stylesheet">
 <link href="app/core/styles/css/plugin.css" rel="stylesheet">
-<!--
-<script type="text/javascript" src="app/core/styles/js/jquery.min.js"></script>
--->
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="app/core/styles/js/html5shiv.js"></script>
-<![endif]-->
+<link href="app/user/styles/css/theme.css" rel="stylesheet" type="text/css" />
+<link href="app/core/styles/css/datetimepicker.css" rel="stylesheet">
 <script type="text/javascript" src="app/core/styles/js/jquery-1.9.1.min.js"></script>
-
-<script type="text/javascript" src="app/core/styles/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="app/exam/styles/css/mathquill.css" type="text/css">
 <script type="text/javascript" src="app/core/styles/js/jquery-ui.js"></script>
+<script type="text/javascript" src="app/core/styles/js/jquery.json.js"></script>
+<script type="text/javascript" src="app/core/styles/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="app/core/styles/js/bootstrap-datetimepicker.js"></script>
 <script type="text/javascript" src="app/core/styles/js/ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="app/core/styles/js/swfu/swfupload.js"></script>
 <script type="text/javascript" src="app/core/styles/js/plugin.js"></script>
-<link href="app/user/styles/css/theme.css" rel="stylesheet" type="text/css" />
+<script src="app/exam/styles/js/plugin.js"></script>
 </head>

@@ -30,7 +30,7 @@
 		<div class="span4"></div>
 		<div class="span8">
 			<span class="pull-right">
-						您好（13110581135）&nbsp;&nbsp;<a href="index.php?user-center"><em class="icon-user"></em> 用户中心</a>&nbsp;&nbsp;<a href="index.php?user-app-logout"><em class="icon-lock"></em> 退出</a>
+						<a href="javascript:;" onclick="javascript:$.loginbox.show();"><em class="icon-lock"></em> 登录</a>&nbsp;&nbsp;<a href="index.php?user-center"><em class="icon-user"></em> 注册</a>
 						&nbsp;&nbsp;&nbsp;&nbsp;
 			</span>
 		</div>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="span3 examcontent">
+	<!--	<div class="span3 examcontent">
 			<div class="exambox">
 				<div class="examform">
 					<h5 class="title">一周学霸排行榜</h5>
@@ -101,8 +101,9 @@
 			</div>
 		</div>
 	</div>
+    -->
 </div>
-<div class="row-fluid">
+<!--<div class="row-fluid">
 	<div class="container-fluid examcontent">
 		<div class="exambox" id="datacontent">
 			<div class="examform">
@@ -113,6 +114,7 @@
 		</div>
 	</div>
 </div>
+-->
 <div class="row-fluid">
 	<div class="container-fluid examcontent">
 		<div class="exambox" id="datacontent">
@@ -177,21 +179,22 @@
 <div class="row-fluid">
 	<div class="container-fluid logfooter">
 		<ul class="inline unstyled">
-			<li><a href="http://phpems.net">网站首页</a></li>
+			<li><a href="http://sdlgbbs.com">网站首页</a></li>
 			<li>|</li>
-			<li><a href="http://phpems.net/bbs/">用户须知</a></li>
+			<li><a href="http://dongbingwei.com">技术支持</a></li>
 			<li>|</li>
 			<li><a href="http://phpems.net/bbs/">隐私协议</a></li>
 			<li>|</li>
-			<li><a href="http://phpems.net/bbs/">网站论坛</a></li>
+			<li><a href="http://phpems.net/">诚挚感谢</a></li>
 			<li>|</li>
-			<li>豫ICP备13016752号-1</li>
+			<!--<li>豫ICP备13016752号-1</li>-->
 		</ul>
 	</div>
 </div>
 <script type="text/javascript">
 $(".thumbnails img").bind("error",function(){$(this).attr("src","app/core/styles/images/icons/Book.png?"+Math.random());});
-</script><script>
+</script>
+<script>
 $(function() {
     $('.banner').unslider({dots: true});
 });
