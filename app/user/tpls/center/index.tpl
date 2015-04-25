@@ -26,16 +26,13 @@
 								<h3>{x2;$_user['username']}</h3>
 								<p>注册日期：{x2;date:$_user['userregtime'],'Y-m-d'}</p>
 								<p>注册IP：{x2;$_user['userregip']}</p>
-								<p>您现有积分：{x2;$_user['usercoin']}</p>
 								<p>&nbsp;</p>
-								<p><a class="btn" href="index.php?user-center-payfor">充值</a></p>
 							</div>
 							<div>&nbsp;</div>
 						</div>
 						<div class="span3">
 							<div class="caption">
 								<h3>&nbsp;</h3>
-								<p>用户组：{x2;$groups[$_user['usergroupid']]['groupname']}</p>
 								<p>真实姓名：{x2;$_user['usertruename']}</p>
 								<p>邮箱：{x2;$_user['useremail']}</p>
 								<p>&nbsp;</p>
